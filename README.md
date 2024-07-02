@@ -31,6 +31,9 @@ Alternatively, following tests, build a native executable with GraalVM (version 
 ./gradlew nativeCompile
 ./gradlew nativeRun
 ```
+The standard `test` task is used as using the `@MicronautTest` annotation on the integration tests is not compatible with Kotlin/Native.
+
+The integration tests use the `kafka-junit` library's in-memory Kafka broker to test the application's integration with the broker.
 
 Check application health:
 ```

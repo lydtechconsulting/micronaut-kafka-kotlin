@@ -38,6 +38,9 @@ dependencies {
     testImplementation("dev.lydtech:component-test-framework:2.11.0")
     testImplementation("io.rest-assured:rest-assured:5.4.0")
     testImplementation("io.rest-assured:kotlin-extensions:5.4.0")
+    testImplementation("org.apache.kafka:kafka-clients:3.7.0")
+    testImplementation("org.apache.kafka:kafka_2.13:3.7.0")
+    testImplementation("net.mguenther.kafka:kafka-junit:3.6.0")
 }
 
 application {
